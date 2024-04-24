@@ -1,167 +1,89 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site</title>
+    <title>Exemplo HTML Semãntico</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <style>
-      body{
-      background-color: rgb(16, 133, 133);
-      margin: auto;
-      width: 80%;
-      }
-      ul{
-         list-style: circle;
-      }
-      li{
-         color: aqua;
-      }
-      p{
-         color:
-      }
-      table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      }
-
-      table{
-      color: rgb(0, 225, 255);
-      }
-
-      th{
-         color: red;
-      }
-      td{
-         text-align: center;
-      }
-
-    </style>
 </head>
 <body>
-   <p>test</p>
-   <h1>Desenvolvimento Web</h1>
-<p>
-
-</p>
-   <h2>O que é Html?</h2>
-   <p>
-    HTML é a linguagem de marcação padrão para a criação de páginas da Web.
-   </p>
-   <ul>
-    <li>HTML significa linguagem de marcação de hipertexto</li>
-    <li>HTML é a linguagem de marcação padrão para criação de páginas da Web</li>
-    <li>HTML descreve a estrutura de uma página da Web</li>
-    <li>HTML consiste em uma série de elementos</li>
-    <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
-    <li>Os elementos HTML rotulam partes do conteúdo como “este é um título”, “este é um parágrafo”, “este é um link”, etc.</li>
-</ul>
-<img src="img/giphy.gif" alt="estrutura basica HTML" style="width: 400px ;height: 400px;;">
-   <h2>O que é CSS?</h2>
-   <p>
-    CSS é a linguagem que usamos para estilizar uma página da Web.
-   </p>
-   <ul>
-    <li>CSS significa Folhas de Estilo em Cascata</li>
-    <li>CSS descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outras mídias</li>
-    <li>CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez</li>
-    <li>Folhas de estilo externas são armazenadas em arquivos CSS</li>
-   </ul>
-
-   <h2>O que é JS?</h2>
-   <p>
-    JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web
-   </p>
-   <ul>
-<li> É uma linguagem de programação de comportamento que permite <br> a criação de conteúdos dinâmicos, controle de mídias e animações para deixar seu site mais interativo e interessante.</li>
-   </ul>
-<img src="img/im.gif" alt="JS" style="width: 300px ;height: 300px;;"> <br>
-
-
-
-<table border="5">
-
-   <tr>
-      <th>hora</th>
-      <th>minutos</th>
-      <th>valor</th>
-      <th>total</th>
-      <th>ano</th>
-      <tr>
-         <td>15</td>
-         <td>45</td>
-         <td>25</td>
-         <td>669,37</td>
-         <td>2021</td>
-      </tr>
-
-      <tr>
-         <td>15</td>
-         <td>45</td>
-         <td style="background-color: red;color: lime;">100</td>
-         <td>2.677,50</td>
-         <td>2022</td>
-      </tr>
-
-      <tr> 
-      <td>20</td>
-      <td>0</td>
-      <td>25</td>
-      <td>850,00</td>
-      <td>2023</td>
-      </tr>
+    <header class="cabecalho">
+        <div class="logo">
+           <p>LOGOTIPO</p>
+        </div>
+        <nav>
+            <p>aqui vai o menu</p>
+        </nav>
+    </header>
+<main>
+    <h1 class="titulos">INTRODUÇÃO AO HTML</h1>
+    <section>
+        <h2 class="titulos">O que é o HTML?</h2>
+        <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.</p>
+        <p>Pricipais tópicos de HTML</p>
+        <ul>
+          <li>HTML significa linguagem de marcação de hipertexto</li>
+          <li>HTML é a linguagem de marcação padrão para criação de páginas da Web</li>
+          <li>HTML descreve a estrutura de uma página da Web</li>
+        </ul>
+    </section>
+   <section>Primeira Sessão</section>
+   <section>Segunda Sessão</section>
+   <section>Terceira Sessão</section>
+</main>
+  <table>
+    <tr>
+      <th>agosto de 2021</th>
+      <th>agosto de 2020</th>
+      <th>Linguagem de programação</th>
+      <th>Avaliações</th>
+      <th>Modulação</th>
    
-</table>
-
-<h2>
-   Tags-HTML
-</h2>
-
-<table border="5">
-
-   <tr>
-      <th>Atributos</th>
-      <th>Descrição</th>
-      <th>Exemplo</th>
-      <tr>
-         <td>p</td>
-         <td>O elemento HTML "p" representa um parágrafo. Em mídias visuais, parágrafos <br> são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco</td>
-         <td> "p"
-            Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
-            Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
-          "/p"</td>
-      </tr>
-      <tr>
-         <td>ul</td>
-         <td>A tag "ul " é um elemento HTML que representa uma lista não ordenada. Este elemento tem como característica criar listas não ordenadas no HTML, ou seja, ao invés de apresentar uma lista com numeração a lista será apresentada com marcadores.</td>
-         <td>"ul"
-            <li>primeiro item</li>
-            <li>segundo item</li>
-            <li>terceiro item</li>
-          "/ul"</td>
-      </tr>
-
-      <tr> 
-      <td>h1</td>
-      <td>A etiqueta H1 é um cabeçalho HTML geralmente utilizado para marcar o título de uma página da web. <br> A maioria dos websites utiliza CSS para fazer o H1 destacar-se na página em comparação com títulos menores, como H2, H3, etc.</td>
-      <td>"h1" Buffet Infantil da Carochinha "/h1" </td>
-      
-      </tr>
-</table>
-
-
-<h2>O que é CSS?</h2>
-   <h2>Tecnologias</h2>
-   <ol>
-       <li>Html</li>
-       <li>CSS</li>
-       <li>JS</li>
-       <li>PHP</li>
-       <li>Java</li>
-       <li>Python</li>
-   </ol>
-   
-   <a href="outro.html">outra pagina</a>
-
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>C</td>
+      <td>12.57%</td>
+      <td>-4.41%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td>Python</td>
+      <td>11.86%</td>
+      <td>+2.17</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2</td>
+      <td>Java</td>
+      <td>10.43%</td>
+      <td>-4.00%</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>C++</td>
+      <td>7.36%</td>
+      <td>+0.52%</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>C#</td>
+      <td>5.14%</td>
+      <td>+0.52%</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+  </table>
+<footer class="Rodapé">
+    <p>Rodapé da Página</p>
+</footer>
 </body>
 </html>
-
