@@ -1,35 +1,37 @@
 body{
-    background-color: rgb(191,191,191);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 header{
-    background-color: rgb(77, 139, 195);
+    background-color: rgb(0, 0, 0);
     padding: 3%;
 }
 
 /* Classe Atribuída para a div que vai receber o logotipo */
 .logo{
-    background-color: rgb(255,255,0);
+    background-color: rgb(0, 0, 0);
 }
 
 nav{
-    background-color: rgb(184,209,231)
+    background-color: rgb(0, 0, 0)
 }
     
 main{
-    background-color: rgb(146,208,80);
-    width: 80%;
+    background-color: rgb(19, 148, 148);
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
     
 section{
-    background-color: rgb(241,214,226);
+    background-color: rgb(0, 0, 0);
 }
 
 footer{
-    background-color: rgb(112,48,160);
-    padding: 3%;
+    background-color: rgb(19, 148, 148);
+    padding: 2%;
+
 }
 
 .cabecalho{
@@ -37,18 +39,19 @@ footer{
 }
 
 .rodape{
-    padding: 3%;
+    padding: 5%;
 }
 
 .titulos{
-    line-height: 3;
+    line-height: 2;
     text-align: center;
     font-weight: bold;
 }
 
 p{
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    text-align: center;
 }
 
 ul li {
@@ -62,4 +65,9 @@ h1{
 
 h2{
     font-size: 1.5em;
+}
+
+h3{
+    font-size: 5em;
+    text-align: center;
 }
