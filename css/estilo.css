@@ -8,14 +8,6 @@ header{
     padding: 3%;
 }
 
-/* Classe Atribuída para a div que vai receber o logotipo */
-.logo{
-    
-}
-
-nav{
-  
-}
     
 main{
    
@@ -25,12 +17,22 @@ main{
 }
     
 section{
+    
+    line-height: 1;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid #66ff0049;
+    background-color: #66ff0049;
+    color: black;
    
 }
 
 footer{
     
-    padding: 2%;
+    padding: 2;
+    line-height: 1;
+    font-size: 2em;
+    text-align: center;
 
 }
 
@@ -50,7 +52,7 @@ footer{
 
 p{
     line-height: 1;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     border: 1px solid #66ff0049;
     background-color: #66ff0049;
@@ -64,7 +66,7 @@ ul li {
 }
 
 h1{
-    font-size: 4em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -82,7 +84,7 @@ h3{
 
 h4{
     line-height: 1;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     color: darkgreen;
     background-color: #66ff0049;
@@ -92,5 +94,9 @@ h4{
 .logo img{
     width: 35%;
     height: autos;
+}
+
+a{
+    color: rgb(111, 15, 139);
 }
 
