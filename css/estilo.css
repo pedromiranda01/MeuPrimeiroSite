@@ -6,32 +6,210 @@ body{
     background-size: cover;
 }
 
+
 header{
-   
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a7f31;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.rodape{
     padding: 3%;
 }
 
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+/* CRIANDO O MENU */
+
+/* #menu ul { 
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    display: flex;
+} */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* #menu ul li { 
+    display: inline; 
+    font-size: 1.2em;
+} */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* #menu ul li:last-child {
+    margin-right: 0;
+} */
+
+/* #menu ul li a {     
+    padding: 2px 10px; 
+    display: inline-block;    
+    text-decoration: none; 
+    /* border-bottom:3px solid #EDEDED;  
+    white-space: nowrap;
+    color: #fff;
+} */
+nav ul li a  {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
     
+    nav ul li label {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* FIM DA FORMATAÇÃO DO MENU */
+
+/* nav{    
+    width: auto;    
+} */
+
+
 main{
-   
-    width: 100%;
+    margin-top: 70px;
+    padding: 20px;
+    
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-    
+section{
+    padding: 20px;
+}
+footer{
+    /* background-color: blueviolet; */
+    padding: 3%;
+}
 
-
-.logo img{
+.logo img {
     /* width: 35%; ou ajuste conforme necessário */
     max-width: 100%; /* Ajusta a largura máxima da imagem para 100% do contêiner pai */
     /* height: auto; */
-    height: 50px;s
+    height: 50px;
 }
 
-a{
-    color: rgb(111, 15, 139);
-}
- 
-.caixa-imagem{
 
+h1,h2,li,figcaption{
+    color: #00ff15;
+}
+
+.caixa-imagem {
+    text-align: center;
+    margin-top: 1%;    
+    
+}
+
+figure {
+    text-align: center;
+    display: inline-block; 
+    height: 300px;
+    width: 300px;   
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;    
+    box-shadow: 0px 4px 8px rgba(241, 154, 4, 0.93); /* Adiciona uma sombra */
+    /* height: 300px; /* Ajuste a altura conforme necessário */
+    /* width: auto; */ 
+    max-width: 100%; /* Ajusta a largura máxima da imagem para 100% do contêiner pai */
+    height: auto;
+}
+
+figure figcaption{
+    margin: 1.0em;    
+    text-align: center;
+    color: rgb(0, 255, 30);
+}
+
+p{
+    color: aliceblue;
+    margin: 1px;
 }
